@@ -3,6 +3,7 @@ import './App.css';
 
 import Title from './Title';
 import POPOSList from './POPOSList';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Title />
       {/* <img src={logo} alt="logo" /> */}
       <POPOSList />
+      <Footer />
     </div>
   );
 }
