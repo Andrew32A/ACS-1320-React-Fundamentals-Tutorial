@@ -5,10 +5,11 @@ import './POPOSList.css';
 
 function POPOSList() {
 
-    const spaces = data.map(( { title, address, images, hours } ) => {
+    const spaces = data.map(({ title, address, images, hours }, i) => {
     return (
         <POPOSSpace
-        key={title} // The title could be a key
+        id={i}
+        key={title}
         name={title}
         address={address}
         image={images[0]}
