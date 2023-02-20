@@ -19,3 +19,26 @@
 		grid-template-columns: 1fr;
 	}
 }
+
+.formWrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.formWrapper form input, .formWrapper form button {
+	padding: 1em;
+	margin: 0;
+	border: 1px solid;
+	font-size: 1rem;
+}
+
+.formWrapper form input {
+	flex: 1;
+	border-top-left-radius: 0.5em;
+	border-bottom-left-radius: 0.5em;
+}
+
+.formWrapper form button {
+	border-top-right-radius: 0.5em;
+	border-bottom-right-radius: 0.5em;
+}
