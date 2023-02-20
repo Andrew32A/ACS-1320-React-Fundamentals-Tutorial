@@ -2,9 +2,9 @@
 import './App.css';
 import { Outlet } from 'react-router-dom'
 
-import Title from './Title';
+import Title from './Title/Title';
 // import POPOSList from './POPOSList';
-import Footer from './Footer';
+import Footer from './Footer/Footer';
 
 function App() {
   return (

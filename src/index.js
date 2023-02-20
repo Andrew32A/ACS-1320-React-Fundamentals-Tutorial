@@ -1,11 +1,11 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client'
 import './index.css';
-import App from './App';
-import POPOSList from './POPOSList';
-import About from './About';
+import App from './components/App';
+import POPOSList from './components/POPOSList/POPOSList';
+import About from './components/About/About';
 import reportWebVitals from './reportWebVitals';
-import POPOSDetails from './POPOSDetails'
+import POPOSDetails from './components/POPOSDetails/POPOSDetails'
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 const rootElement = document.getElementById('root');

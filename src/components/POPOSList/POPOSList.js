@@ -1,7 +1,6 @@
-import POPOSSpace from "./POPOSSpace"
-import data from './sfpopos-data.json';
+import POPOSSpace from "../POPOSSpace/POPOSSpace"
+import data from '../../sfpopos-data.json';
 import './POPOSList.css';
-
 
 function POPOSList() {
 
